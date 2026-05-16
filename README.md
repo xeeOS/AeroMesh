@@ -1,0 +1,47 @@
+# Colnago Y1Rs Project
+
+<p align="center">
+  <img src="Pictures/y1rs.png" alt="Colnago Y1Rs Showcase" width="500" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
+  <img src="https://shields.io" alt="HTML5" />
+  <img src="https://shields.io" alt="CSS3" />
+  <img src="https://shields.io" alt="Model-Viewer" />
+</p>
+
+> An interactive 3d implementation showcasing the precision engineering and aerodynamics of the Colnago Y1Rs road bike.
+
+## Features
+
+
+| Feature | Description |
+|:---|:---|
+| **Interactive 3D Model** | Rotatable, zoomable, and scalable rendering of the Y1Rs frame |
+| **Annotation Hotspots** | Clickable layout markers pinpointing specific bike component details |
+
+## Project Structure
+
+```text
+├── Models/
+│   └── y1rs.glb              # 3d bike model
+├── Pictures/
+│   ├── colnago_logo.png      # assets
+│   ├── leftmouseclick.png    
+│   ├── rightmouseclick.png   
+│   └── scrollbutton.png      
+├── index.html                # Main file
+├── LICENSE                  
+└── README.md                
+```
+
+## Running the Project Locally
+
+Because this project imports a local 3d `.glb` asset, most browsers will block the model from loading if you double-click the `index.html` file directly due to CORS security rules. 
+
+To view it properly, you must run it through a local web server:
+
+1. Open this project folder in **VS Code**.
+2. Click the **Go Live** button at the bottom right corner (requires the **Live Server** extension).
+3. The project will open at `http://127.0.0.1:5500` in your web browser.
