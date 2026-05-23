@@ -18,7 +18,7 @@
 
 | Feature | Description |
 |:---|:---|
-| **Interactive 3D Model** | Rotatable, zoomable, and scalable rendering of the Y1Rs frame |
+| **Interactive 3D Model** | Rotatable, zoomable, and scalable rendering of the bike's frame |
 | **Annotation Hotspots** | Clickable layout markers pinpointing specific bike components |
 
 ## Project Structure
